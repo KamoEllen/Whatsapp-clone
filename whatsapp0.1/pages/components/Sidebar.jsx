@@ -10,6 +10,14 @@ const Sidebar = () => {
 
         </Header>
       </Container>
+
+const Sidebar = () => {
+  return (
+    <div>
+      <container>
+        <h1>Sidebar</h1>
+      </container>
+
     </div>
   )
 }
@@ -23,3 +31,6 @@ const Header = styled.div`
 
 const userAvatar = styled(Avatar)
 
+
+const container = styled.div`
+`;
