@@ -1,12 +1,22 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Sidebar from './components/Sidebar'
+
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Whatsapp</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Sidebar/>
+      
+      {/*
+      <main className={styles.main}>
+        <h1 className={styles.title}>
+          Lets build app0.1</h1>
 
         <title>Create Next App</title>
 
@@ -71,6 +81,8 @@ export default function Home() {
           </span>
         </a>
       </footer>
+      */}
+
     </div>
   )
 }
